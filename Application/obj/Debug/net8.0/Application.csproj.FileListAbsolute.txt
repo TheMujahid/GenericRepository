@@ -1,0 +1,17 @@
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Application.deps.json
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Application.dll
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Application.pdb
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Domain.dll
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Infrastructure.dll
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Domain.pdb
+C:\Demo Projects\CRUD_WEP_API\Application\bin\Debug\net8.0\Infrastructure.pdb
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.dll
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\Application.pdb
+C:\Demo Projects\CRUD_WEP_API\Application\obj\Debug\net8.0\ref\Application.dll
