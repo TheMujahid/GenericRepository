@@ -1,5 +1,6 @@
 ﻿using Application.BusinessDomain.IService;
 using Application.Common;
+using Application.Dtos.ResponseDtos;
 using Application.IRepository;
 using Domain;
 
@@ -13,50 +14,30 @@ namespace Application.BusinessDomain.Service
             _repo = repo;
         }
 
-        public async Task<Response<Product>> CreateProduct(Product product)
+        public async Task<Response<ProductResponseDto>> CreateProduct(Product product)
         {
-            Response<Product> response = null;
+            Response<ProductResponseDto> response = null;
 
             if (product == null)
-            {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Entity should be empty/null"
-                    },
-                    Data = null
-                };
-                return response;
-            }
+                return Response<ProductResponseDto>.ErrorResponse("Please select product");
 
             var isCreated = await _repo.Create(product);
             if (!isCreated)
-            {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Something went wrong!!! Please try again"
-                    },
-                    Data = null
-                };
-                return response;
-            }
+                return Response<ProductResponseDto>.ErrorResponse("Something went wrong!!! Please try again");
 
-            response = new Response<Product>
+            var model = new ProductResponseDto
             {
-                Status = new Status
+                Name = product.Name,
+                Price = product.Price,
+
+                OrderItems = product.OrderItems.Select(io => new OrderItemResponseDto
                 {
-                    Success = true,
-                    Message = "Product created successfully"
-                },
-                Data = product
+                    Price = io.Product.Price,
+                    ProductName = io.Product.Name,
+                }).ToList()
             };
 
-            return response;
+            return Response<ProductResponseDto>.SuccessResponse(model, "Product Created successfully");
         }
 
         public async Task<Response<IQueryable<Product>>> GetAllProducts()

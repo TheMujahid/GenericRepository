@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Demo Projects\\CRUD_WEP_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|c:\\demo projects\\crud_wep_api\\crud_wep_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|solutionrelative:crud_wep_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\businessdomain\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\dtos\\responsedtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\dtos\\responsedtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\dtos\\responsedtos\\orderitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\dtos\\responsedtos\\orderitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\businessdomain\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|c:\\demo projects\\crud_wep_api\\crud_wep_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|solutionrelative:crud_wep_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\businessdomain\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\dtos\\responsedtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\dtos\\responsedtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31EA833C-73B0-4353-AC79-38662F833234}|Domain\\Domain.csproj|c:\\demo projects\\crud_wep_api\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31EA833C-73B0-4353-AC79-38662F833234}|Domain\\Domain.csproj|solutionrelative:domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\businessdomain\\iservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|c:\\demo projects\\crud_wep_api\\crud_wep_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|solutionrelative:crud_wep_api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|c:\\demo projects\\crud_wep_api\\crud_wep_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277E6A60-CB68-4C9E-BE6D-42A5A41C5717}|CRUD_WEP_API\\WEP_API.csproj|solutionrelative:crud_wep_api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2F3A61B-317A-492E-98E6-8F70286A5FE2}|Infrastructure\\Infrastructure.csproj|c:\\demo projects\\crud_wep_api\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31EA833C-73B0-4353-AC79-38662F833234}|Domain\\Domain.csproj|c:\\demo projects\\crud_wep_api\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31EA833C-73B0-4353-AC79-38662F833234}|Domain\\Domain.csproj|solutionrelative:domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\dtos\\responsedtos\\orderitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\dtos\\responsedtos\\orderitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\dtos\\responsedtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\dtos\\responsedtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|solutionrelative:application\\businessdomain\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7CF82E5-3B5D-41B4-92A1-63DC5C7848E6}|Application\\Application.csproj|c:\\demo projects\\crud_wep_api\\application\\businessdomain\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,13 +102,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Domain\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Product.cs",
+              "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Domain\\Product.cs",
+              "RelativeToolTip": "Domain\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T13:15:11.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\ResponseDtos\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\ResponseDtos\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\ResponseDtos\\ProductResponseDto.cs",
+              "RelativeToolTip": "Application\\Dtos\\ResponseDtos\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T13:17:43.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\CRUD_WEP_API\\.gitignore",
               "RelativeDocumentMoniker": "CRUD_WEP_API\\.gitignore",
               "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\CRUD_WEP_API\\.gitignore",
               "RelativeToolTip": "CRUD_WEP_API\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-05T11:55:21.229Z",
               "EditorCaption": ""
@@ -120,32 +154,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\IService\\IProductService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\IService\\IProductService.cs",
               "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\IService\\IProductService.cs",
               "RelativeToolTip": "Application\\BusinessDomain\\IService\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T06:49:26.411Z"
+              "WhenOpened": "2026-11-04T06:49:26.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\Service\\ProductService.cs",
               "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\Service\\ProductService.cs",
               "RelativeToolTip": "Application\\BusinessDomain\\Service\\ProductService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-04T06:49:07.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\IService\\ICustomerService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\IService\\ICustomerService.cs",
@@ -157,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\Service\\CustomerService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\Service\\CustomerService.cs",
@@ -170,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Infrastructure\\IRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\IRepository\\IGenericRepository.cs",
@@ -182,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GenericRepository.cs",
@@ -190,25 +225,24 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T06:21:27.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-04T06:21:27.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "OrderItemResponseDto.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\ResponseDtos\\OrderItemResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\Dtos\\ResponseDtos\\OrderItemResponseDto.cs",
               "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\ResponseDtos\\OrderItemResponseDto.cs",
               "RelativeToolTip": "Application\\Dtos\\ResponseDtos\\OrderItemResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T09:54:33.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "OrderResponseDto.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\ResponseDtos\\OrderResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\Dtos\\ResponseDtos\\OrderResponseDto.cs",
@@ -216,11 +250,12 @@
               "RelativeToolTip": "Application\\Dtos\\ResponseDtos\\OrderResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T09:53:33.18Z"
+              "WhenOpened": "2026-11-03T09:53:33.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "OrderRequestDto.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\Dtos\\RequestDtos\\OrderRequestDto.cs",
               "RelativeDocumentMoniker": "Application\\Dtos\\RequestDtos\\OrderRequestDto.cs",
@@ -232,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\CRUD_WEP_API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "CRUD_WEP_API\\Controllers\\OrderController.cs",
@@ -245,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\IService\\IOrderService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\IService\\IOrderService.cs",
@@ -258,20 +293,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "Application\\BusinessDomain\\Service\\OrderService.cs",
               "ToolTip": "C:\\Demo Projects\\CRUD_WEP_API\\Application\\BusinessDomain\\Service\\OrderService.cs",
               "RelativeToolTip": "Application\\BusinessDomain\\Service\\OrderService.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwJcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwJMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T07:33:40.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Demo Projects\\CRUD_WEP_API\\Domain\\Order.cs",
               "RelativeDocumentMoniker": "Domain\\Order.cs",
@@ -279,8 +314,7 @@
               "RelativeToolTip": "Domain\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T07:13:43.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T07:13:43.168Z"
             }
           ]
         }
