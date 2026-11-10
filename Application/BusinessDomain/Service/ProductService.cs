@@ -40,123 +40,59 @@ namespace Application.BusinessDomain.Service
             return Response<ProductResponseDto>.SuccessResponse(model, "Product Created successfully");
         }
 
-        public async Task<Response<IQueryable<Product>>> GetAllProducts()
+        public async Task<Response<IQueryable<ProductResponseDto>>> GetAllProducts()
         {
-            Response<IQueryable<Product>> response = null;
             var products = _repo.GetAll();
 
-            if (products == null)
-            {
-                response = new Response<IQueryable<Product>>
-                {
-                    Status = new Status
-                    {
-                        Success = true,
-                        Message = "No products found"
-                    },
-                    Data = null
-                };
-            }
+            if (products == null || !products.Any())
+                return Response<IQueryable<ProductResponseDto>>.ErrorResponse("No Products found");
             else
             {
-                response = new Response<IQueryable<Product>>
+                var productModel = products.Select(p => new ProductResponseDto
                 {
-                    Status = new Status
-                    {
-                        Success = true,
-                        Message = "Products retrieved successfully!!"
-                    },
-                    Data = products
-                };
+                    Name = p.Name,
+                    Price = p.Price
+                });
+                return Response<IQueryable<ProductResponseDto>>.SuccessResponse(productModel, "Products retrieved successfully!!");
             }
-            return response;
         }
 
-        public async Task<Response<Product>> GetProductById(int id)
+        public async Task<Response<ProductResponseDto>> GetProductById(int id)
         {
-            Response<Product> response = null;
-
             if (id == 0)
-            {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Please provide id"
-                    },
-                    Data = null
-                };
-                return response;
-            }
+                return Response<ProductResponseDto>.ErrorResponse("Please provide product id");
+
             var data = await _repo.GetById(id);
+
             if (data == null)
-            {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Product not found for the given id"
-                    },
-                    Data = null
-                };
-            }
+                return Response<ProductResponseDto>.SuccessResponse(null, "Product not found for the given id");
             else
             {
-                response = new Response<Product>
+                var productModel = new ProductResponseDto
                 {
-                    Status = new Status
-                    {
-                        Success = true,
-                        Message = "Product retrieved successfully"
-                    },
-                    Data = data
+                    Name = data.Name,
+                    Price = data.Price
                 };
+                return Response<ProductResponseDto>.SuccessResponse(productModel, "Product retrieved successfully.");
             }
-            return response;
         }
 
-        public async Task<Response<Product>> UpdateProduct(Product product)
+        public async Task<Response<ProductResponseDto>> UpdateProduct(Product product)
         {
             Response<Product> response = null;
             if (product == null)
             {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Message can not be null."
-                    }
-                };
-                return response;
+                return Response<ProductResponseDto>.ErrorResponse("Entity can not be null.");
             }
             var isUpdated = await _repo.Update(product);
             if (isUpdated)
             {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = true,
-                        Message = "Item updated successfully"
-                    },
-                    Data = product
-                };
+                return Response<ProductResponseDto>.SuccessResponse(null, "Product Updated successfully.");
             }
             else
             {
-                response = new Response<Product>
-                {
-                    Status = new Status
-                    {
-                        Success = false,
-                        Message = "Sorry Please try again"
-                    }
-                };
+                return Response<ProductResponseDto>.ErrorResponse("Please try again.");
             }
-            return response;
         }
     }
 }

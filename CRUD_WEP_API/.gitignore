@@ -1,15 +1,13 @@
 ﻿# Visual Studio files
 .vs/
-*.user
 *.suo
-
-# Build files
-bin/
-obj/
-
-# User-specific files
+*.user
 *.userosscache
 *.sln.docstates
 
-# Secrets
-appsettings.Development.json
+# Build folders
+bin/
+obj/
+
+# Visual Studio cache
+*.cache

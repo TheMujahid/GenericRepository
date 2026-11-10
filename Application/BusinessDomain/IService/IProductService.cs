@@ -7,8 +7,8 @@ namespace Application.BusinessDomain.IService
     public interface IProductService
     {
         Task<Response<ProductResponseDto>> CreateProduct(Product product);
-        Task<Response<Product>> GetProductById(int id);
-        Task<Response<IQueryable<Product>>> GetAllProducts();
-        Task<Response<Product>> UpdateProduct(Product product);
+        Task<Response<ProductResponseDto>> GetProductById(int id);
+        Task<Response<IQueryable<ProductResponseDto>>> GetAllProducts();
+        Task<Response<ProductResponseDto>> UpdateProduct(Product product);
     }
 }
