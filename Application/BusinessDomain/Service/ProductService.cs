@@ -2,6 +2,7 @@
 using Application.Common;
 using Application.Dtos.ResponseDtos;
 using Application.IRepository;
+using AutoMapper;
 using Domain;
 
 namespace Application.BusinessDomain.Service
@@ -9,9 +10,11 @@ namespace Application.BusinessDomain.Service
     public class ProductService : IProductService
     {
         private readonly IGenericRepository<Product> _repo;
-        public ProductService(IGenericRepository<Product> repo)
+        private readonly IMapper _mapper;
+        public ProductService(IGenericRepository<Product> repo, IMapper mapper)
         {
             _repo = repo;
+            _mapper = mapper;
         }
 
         public async Task<Response<ProductResponseDto>> CreateProduct(Product product)
@@ -40,20 +43,21 @@ namespace Application.BusinessDomain.Service
             return Response<ProductResponseDto>.SuccessResponse(model, "Product Created successfully");
         }
 
-        public async Task<Response<IQueryable<ProductResponseDto>>> GetAllProducts()
+        public async Task<Response<List<ProductResponseDto>>> GetAllProducts()
         {
             var products = _repo.GetAll();
 
             if (products == null || !products.Any())
-                return Response<IQueryable<ProductResponseDto>>.ErrorResponse("No Products found");
+                return Response<List<ProductResponseDto>>.ErrorResponse("No Products found");
             else
             {
-                var productModel = products.Select(p => new ProductResponseDto
-                {
-                    Name = p.Name,
-                    Price = p.Price
-                });
-                return Response<IQueryable<ProductResponseDto>>.SuccessResponse(productModel, "Products retrieved successfully!!");
+                //var productModel = products.Select(p => new ProductResponseDto
+                //{
+                //    Name = p.Name,
+                //    Price = p.Price
+                //});
+                var result = _mapper.Map<List<ProductResponseDto>>(products);
+                return Response<List<ProductResponseDto>>.SuccessResponse(result, "Products retrieved successfully!!");
             }
         }
 

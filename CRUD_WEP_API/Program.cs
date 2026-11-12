@@ -1,6 +1,7 @@
 using Application.BusinessDomain.IService;
 using Application.BusinessDomain.Service;
 using Application.IRepository;
+using Application.Mapper;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,12 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+
+//***********Automapper*********************
+builder.Services.AddAutoMapper(
+    cfgc =>
+    { },
+     typeof(ProductMappingProfile));
 
 var app = builder.Build();
 
