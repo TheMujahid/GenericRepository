@@ -28,19 +28,8 @@ namespace Application.BusinessDomain.Service
             if (!isCreated)
                 return Response<ProductResponseDto>.ErrorResponse("Something went wrong!!! Please try again");
 
-            var model = new ProductResponseDto
-            {
-                Name = product.Name,
-                Price = product.Price,
-
-                OrderItems = product.OrderItems.Select(io => new OrderItemResponseDto
-                {
-                    Price = io.Product.Price,
-                    ProductName = io.Product.Name,
-                }).ToList()
-            };
-
-            return Response<ProductResponseDto>.SuccessResponse(model, "Product Created successfully");
+            var result = _mapper.Map<ProductResponseDto>(product);
+            return Response<ProductResponseDto>.SuccessResponse(result, "Product Created successfully");
         }
 
         public async Task<Response<List<ProductResponseDto>>> GetAllProducts()
@@ -51,11 +40,6 @@ namespace Application.BusinessDomain.Service
                 return Response<List<ProductResponseDto>>.ErrorResponse("No Products found");
             else
             {
-                //var productModel = products.Select(p => new ProductResponseDto
-                //{
-                //    Name = p.Name,
-                //    Price = p.Price
-                //});
                 var result = _mapper.Map<List<ProductResponseDto>>(products);
                 return Response<List<ProductResponseDto>>.SuccessResponse(result, "Products retrieved successfully!!");
             }
@@ -69,15 +53,13 @@ namespace Application.BusinessDomain.Service
             var data = await _repo.GetById(id);
 
             if (data == null)
+            {
                 return Response<ProductResponseDto>.SuccessResponse(null, "Product not found for the given id");
+            }
             else
             {
-                var productModel = new ProductResponseDto
-                {
-                    Name = data.Name,
-                    Price = data.Price
-                };
-                return Response<ProductResponseDto>.SuccessResponse(productModel, "Product retrieved successfully.");
+                var result = _mapper.Map<ProductResponseDto>(data);
+                return Response<ProductResponseDto>.SuccessResponse(result, "Product retrieved successfully.");
             }
         }
 
